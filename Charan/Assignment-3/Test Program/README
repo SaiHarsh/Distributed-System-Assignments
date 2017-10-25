@@ -1,0 +1,10 @@
+README - Q1
+
+1. You can compare your o/p and the test code for any input, using the below -
+
+Run as : 
+python3.6 q1_python3.6.pyc file1.txt file2.txt file3.txt filen.txt > exp_op.txt
+diff exp_op.txt your_op.txt
+
+2. q1_tokenize.py gives a sample code to tokenise your data. 
+More processing is not expected. 

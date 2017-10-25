@@ -1,0 +1,31 @@
+/******************************/
+Name: Sai Charan Regunta
+Roll#: 20172116
+/******************************/
+*Q2
+Compilation:
+	mpic++ Q2_20172114.cpp
+Execution:
+	mpirun -np <num-of-processors> ./a.out <array-size> <array>
+	Example: mpirun -np 5 ./a.out 5 5 4 3 2 1
+*Q3
+Compilation:
+	mpic++ Q3_20172114.cpp
+Execution:
+	mpirun -np <num-of-processors> ./a.out
+	<|V|> <m(|E|)>
+	u1 v1 w1
+	u2 v2 w2
+	.
+	.
+	um vm wm
+
+	Example: mpirun -n 5 ./a.out dgrep_samples/input1.txt all
+*Q4
+Compilation:
+	mpic++ Q4_20172114.cpp
+Execution:
+	mpirun -np <num-of-processors> ./a.out <inputFileName> <keyword>
+	Example: mpirun -n 5 ./a.out dgrep_samples/input1.txt all
+
+Please find Screenshots for all the outPuts Q2,Q3,Q4

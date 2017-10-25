@@ -1,0 +1,34 @@
+=====================READ-ME=====================
+
+*Compilation Process for Q1 & Q2
+	javac *.java
+
+*Execution for Q1
+	java MS20172114_Server
+	java MS20172114_Client
+	(in two different machines/terminals)	
+
+*Imp points for Q1	
+	- 10 Account details with default balance have been initialized in the program 
+	- After Starting the Server, Client can be connected to it any number of times (Server refers to ATM machine and Client is reffered to Customer using ATM)
+	- Client need to provide the info needed
+	- Server will acknowledge about the transaction
+	-  PFA of Q1_Screenshot.png for Reference
+	- All the features asked in the Q1 were implemented
+
+*Execution for Q2
+	java MS20172114_Server
+	java MS20172114_Client	
+	(in two different machines/terminals)
+
+*Imp points for Q2	
+	- After Starting the Server, Client can be connected to it any number of times
+	- Client can use the four functionalities provided by the Server.
+	- Server will send the Response to the Query asked by Client.
+	- Communication is done using Diffie Hellman Key​ ​ Exchange​ ​ protocol
+		- Client will encode the message and will send the encoded message to Server
+		- Server decodes the message received and do the necessary computation
+		- Server sends solution after encoding it to the Client
+		- Client decodes the message received and uses it
+	-  PFA of Q2_Screenshot.png for Reference
+	- All the features asked in the Q2 were implemented
