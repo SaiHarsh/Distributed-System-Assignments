@@ -1,0 +1,8 @@
+READ(D, t)
+t = t+1
+WRITE(C, t)
+READ(C, t)
+t = t+1
+WRITE(D, t)
+OUTPUT(C)
+OUTPUT(D)
