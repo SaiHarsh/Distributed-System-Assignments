@@ -1,0 +1,9 @@
+READ(C, t1)
+READ(D, t2)
+t1 = t1+t2
+WRITE(C, t1)
+t1 = t1-t2
+t1 = t1+t2
+WRITE(D, t1)
+OUTPUT(C)
+OUTPUT(D)

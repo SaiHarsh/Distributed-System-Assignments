@@ -1,0 +1,8 @@
+READ(A,t)
+t := t*2
+WRITE(A, t)
+READ(B, t)
+t := t*2
+WRITE(B, t)
+OUTPUT(A)
+OUTPUT(B)

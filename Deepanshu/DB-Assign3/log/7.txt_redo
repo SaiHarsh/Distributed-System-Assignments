@@ -1,0 +1,13 @@
+<start T1> A 8 B 8 C 5 D 10 
+<T1 A 16> A 16 B 8 C 5 D 10 
+<T1 B 16> A 16 B 16 C 5 D 10 
+<start T2> A 16 B 16 C 5 D 10 
+<T2 C 15> A 16 B 16 C 15 D 10 
+<T2 D 15> A 16 B 16 C 15 D 15 
+<start T3> A 16 B 16 C 15 D 15 
+<T3 C 16> A 16 B 16 C 16 D 15 
+<T3 D 17> A 16 B 16 C 16 D 17 
+<commit T1> A 16 B 16 C 16 D 17 
+<commit T2> A 16 B 16 C 16 D 17 
+<commit T3> A 16 B 16 C 16 D 17 
+7
